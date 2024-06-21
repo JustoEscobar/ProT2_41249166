@@ -27,7 +27,7 @@
                                     <i class="fab fa-shopify"></i>  PRODUCTOS
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Categoria 1</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">Categoria 1</a></li> <!--prueba ruta dropdown-->
                                     <li><a class="dropdown-item" href="#">Categoria 2</a></li>
                                     <li><a class="dropdown-item" href="#">Categoria 3</a></li>
                                 </ul>
