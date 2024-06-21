@@ -156,7 +156,10 @@ overflow: hidden;
 .btn i{
     vertical-align: text-top !important;
 }
-
+.boton-ingresar, .boton-registro{
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
 .divider-content-center{
     position: absolute;
     top: 50%;

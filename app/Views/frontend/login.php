@@ -46,10 +46,10 @@
                             <small><a href="#">¿Olvidaste tu contraseña?</a></small>
                         </div>
                     </div>
-                    <button class="btn btn-primary btn-lg w-100 mb-3">Ingresar</button>
+                    <button class="btn boton-ingresar btn-primary btn-lg w-100 mb-3">Ingresar</button>
                 </form>
                 <div class="text-center">
-                    <small>No tienes una cuenta?<a href="#" class="fw-bold"> Registrarse</a></small>
+                    <small>No tienes una cuenta?<a class="fw-bold" href="<?php echo base_url('registro'); ?>"> Registrarse</a></small>
                 </div>
             </div>
         </div>
