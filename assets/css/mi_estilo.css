@@ -3,6 +3,8 @@
 /* FUENTE y FONDO*/
 .estilo-body{
     font-family: "Nunito Sans", sans-serif; 
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,199,135,1) 52%, rgba(221,172,76,1) 100%);
 } 
 
 /* ESTILOS DEL NAVBAR - MENU */
@@ -139,6 +141,10 @@ overflow: hidden;
 
 /*PAGINA PRINCIPAL - CAROUSEL PRINCIPAL - INICIO*/
 
+.section-padding {
+	padding: 100px 0;
+}
+
 .custom-carousel .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -162,16 +168,15 @@ overflow: hidden;
     font-size: 18px;
     line-height: 1.9;
 }
-
-.custom-carousel .carousel-inner::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 1;
+.custom-carousel .carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/* background: rgba(0, 0, 0, 0.7); */ 
+	z-index: 1;
 }
 
 .custom-service .services .card-body i{
@@ -205,11 +210,6 @@ overflow: hidden;
 }
 
 /*PAGINA LOGIN - FORMULARIO LOGIN*/
-
-.bg-form{
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,199,135,1) 52%, rgba(221,172,76,1) 100%);
-}
 
 .bg-holder{
     position: absolute;
@@ -255,8 +255,6 @@ a{
     text-decoration: none !important;
 }
 
-/*PAGINA REGISTRO - FORMULARIO REGISTRO*/
-
 /*PAGINA ACERCA_DE*/
 
 /*PAGINA QUIENES_SOMOS*/
@@ -264,31 +262,45 @@ a{
 /*PAGINA PRODUCTOS*/
 
 /* FOOTER - PIE DE PAGINA */
-footer {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(13,235,228,1) 50%, rgba(0,0,0,1) 85%);   /* Color de fondo del footer */
+
+/*FOOTER*/
+#footer {
+    color: #7f7f7f;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#footer .footer-top {
+    padding: 30px 0 0;
+}
+#footer .footer-top {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,199,135,1) 30%, rgba(221,172,76,1) 50%, rgba(124,83,4,1) 82%); 
     color: #000000;
-    padding: 20px 0;
-    overflow: hidden; 
-}
-.footer-content {
-    max-width: 800px; /* Ancho máximo del contenido del footer */
-    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
-    text-align: center; 
-    box-sizing: border-box;
+    font-size: 14px !important;
 }
 
-/* Estilo para los iconos sociales */
+.footer-bottom{
+    background: #0d0d0d;
+    border-top-width: 0px;
+    border-bottom: 0px;
+    font-size: 11px;
+    line-height: 17px;
+    
+}
+
+footer p{
+    color: #000000;
+} 
+
+.logotipo{
+    width: 10px;
+    height: 10px;
+}
+
 .iconos-redes{
-    height: 30px;
-    width: 30px; 
-}
-
-.social-icons {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
+    width: 20px;
+    margin: 10px 5px;   
 }
 
 .social-icons li {
@@ -300,8 +312,21 @@ footer {
     color: inherit; /* Usa el color inherente al contexto */
 }
 
-.social-icons a:hover {
-    color: black; /* Cambia el color al pasar el mouse */
+.derechos{
+    margin-top: 20px;
+    border-color:rgb(252, 251, 251);
+    border-width:0px;
+    border-style:solid;
 }
 
+.fondo-pie{
+    padding: 150px 0 100px 0;
+    background-image: url(../img/footer/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondo-pie h2{
+    color: #fff;
+}
 
