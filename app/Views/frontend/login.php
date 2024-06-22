@@ -1,5 +1,5 @@
-<!--Diseño Formulario Login -->
-<div class="row vh-100 g-0">
+<!--Inicio Formulario Login -->
+<div class="row vh-100 g-0 bg-form">
     <div class="col-lg-6 position-relative d-lg-block">
         <div class="bg-holder" style="background-image: url(assets/img/login/img_login.jpg);">
         </div>
@@ -22,7 +22,7 @@
                 </button>
                 <div class="position-relative">
                     <hr class="text-secondary divider">
-                    <div class="divider-content-center">o</div>
+                    <div class="divider-content-center"> </div>
                 </div>
                 <form action="#">
                     <div class="input-group mb-3">
@@ -55,3 +55,4 @@
         </div>
     </div>
 </div>
+<!--Fin Formulario Login-->

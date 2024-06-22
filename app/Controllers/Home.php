@@ -9,8 +9,15 @@ class Home extends BaseController
         echo view('common/head');
         echo view('common/navbar');
         echo view('frontend/inicio');
-        echo view('common/footer');
 	}
+
+        public function principal(){
+
+        echo view('common/head');
+        echo view('common/navbar');
+        echo view('frontend/principal');
+        echo view('common/footer');
+        }
 
 	public function quienes_somos(){
 
@@ -41,7 +48,6 @@ class Home extends BaseController
         echo view('common/head');
         echo view('common/navbar');
         echo view('frontend/registro');
-        echo view('common/footer');
         }
 
         public function login(){
@@ -49,6 +55,5 @@ class Home extends BaseController
         echo view('common/head');
         echo view('common/navbar');
         echo view('frontend/login');
-        echo view('common/footer');
         }
 }

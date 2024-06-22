@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProT2_41249166</title>
-    <link rel="icon" type="image/png" href="<?php echo base_url('assets/img/logo2.png'); ?>">
+    <title>Coffe House</title>
+    <link rel="icon" type="image/png" href="<?php echo base_url('assets/img/logo_cafe3.png'); ?>">
     <!--Mi estilo-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/mi_estilo.css'); ?>" />
     <!--Bootstrap-->

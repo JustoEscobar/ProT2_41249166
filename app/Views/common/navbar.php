@@ -1,6 +1,6 @@
 <body class="estilo-body">
-    <header>
-        <!-- NavBar -->
+    <header class="custom-navbar">
+        <!--Inicio NavBar -->
         <nav class="navbar navbar-expand-lg fixed-top bg-nav">
             <div class="container-fluid">
                 <a class="navbar-brand me-auto" href="<?php echo base_url('inicio'); ?>">
@@ -14,7 +14,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2 active" aria-current="page" href="<?php echo base_url('inicio'); ?>"><i class="fa-solid fa-house-chimney"></i>  INICIO</a>
+                                <a class="nav-link mx-lg-2 active" aria-current="page" href="<?php echo base_url('principal'); ?>"><i class="fa-solid fa-house-chimney"></i>  INICIO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link mx-lg-2" href="<?php echo base_url('quienes_somos'); ?>"><i class="fa-solid fa-mug-saucer"></i>  QUIENES SOMOS</a>
