@@ -11,7 +11,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER PRODUCTOS</a>
+                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -19,7 +19,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER PRODUCTOS</a>
+                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -27,7 +27,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER PRODUCTOS</a>
+                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
     </div>
@@ -41,36 +41,44 @@
     </button>
 </div>
 
-<!--Informacion adicional-->
+<!-- Informacion acerca de nosotros -->
 <section id="about" class="about section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-12 col-12">
-                <div class="about-img">
-                    <img src="assets/img/principal/cafe_taza_1.jpg" alt="img_cafe_taza_1" class="img-fluid">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h3>ACERCA DE COFFE HOUSE</h3>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
-                <div class="about-text">
-                    <h2>Te brindamos la mejor calidad<br> Siempre</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, distinctio esse a,
-                        aut ea voluptates voluptate magni deleniti eos iure ipsam obcaecati reprehenderit ullam excepturi
-                        numquam odit impedit aperiam quisquam?</p>
-                    <a href="#" class="btn btn-warning">Ver Mas</a>
+        </div>
+        <div class="card mb-3 custom-card-horizontal">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="assets/img/principal/cafe_taza_5.jpg" alt="img_cafe_taza_5" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">DESCUBRE LA EXCELENCIA DEL CAFE</h5>
+                        <p class="card-text">En Coffe House, nos especializamos en ofrecer una experiencia única con nuestros cafés premium. 
+                                Nuestra pasión por el café nos lleva a seleccionar los mejores granos, asegurando un sabor 
+                                inigualable en cada taza. Más que una tienda, somos un lugar donde los amantes del café pueden 
+                                descubrir nuevos sabores, aprender sobre la rica historia del café y compartir momentos 
+                                inolvidables. Únete a nosotros y vive la experiencia Coffe House.</p>
+                        <a href="<?php echo base_url('acerca_de'); ?>" class="btn btn-warning">Leer Mas</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--Cards de Servicios/Prodcutos-->
+<!--Cards de Ofertas de nuestros Servicios/Prodcutos-->
 <section id="services" class="services custom-service">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header text-center pb-5">
-                    <h2>Nuestros productos</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.<br> Ratione possimus nulla autem nisi assumenda voluptatum?</p>
+                    <h3>NUESTROS PRODUCTOS</h3>
                 </div>
             </div>
         </div>
@@ -112,14 +120,13 @@
     </div>
 </section>
 
-<!--Productos-->
+<!--Cards Equipo de trabajo-->
 <section id="portfolio" class="portfolio section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header text-center pb-5">
-                    <h2>Aprende mas sobre nuestros productos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
+                    <h3>NUESTRO EQUIPO</h3>
                 </div>
             </div>
         </div>
@@ -163,4 +170,3 @@
         </div>
     </div>
 </section>
-
