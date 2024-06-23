@@ -6,7 +6,7 @@
                 <a class="navbar-brand me-auto" href="<?php echo base_url('inicio'); ?>">
                     <img src="assets/img/logo_cafe_sf.png" alt="LOGO_INICIO" class="logo-img">
                 </a>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/logo_cafe_sf.png" alt="LOGO_INICIO" class="logo-img"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -14,17 +14,17 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2 active" aria-current="page" href="<?php echo base_url('principal'); ?>"><i class="fa-solid fa-house-chimney"></i>  INICIO</a>
+                                <a class="nav-link mx-lg-2 active" aria-current="page" href="<?php echo base_url('principal'); ?>"><i class="fa-solid fa-house-chimney"></i> INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="<?php echo base_url('quienes_somos'); ?>"><i class="fa-solid fa-mug-saucer"></i>  QUIENES SOMOS</a>
+                                <a class="nav-link mx-lg-2" href="<?php echo base_url('quienes_somos'); ?>"><i class="fa-solid fa-mug-saucer"></i> QUIENES SOMOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="<?php echo base_url('acerca_de'); ?>"><i class="fas fa-info-circle"></i>  ACERCA DE</a>
+                                <a class="nav-link mx-lg-2" href="<?php echo base_url('acerca_de'); ?>"><i class="fas fa-info-circle"></i> ACERCA DE</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="<?php echo base_url('productos'); ?>">
-                                    <i class="fab fa-shopify"></i>  PRODUCTOS
+                                    <i class="fab fa-shopify"></i> PRODUCTOS
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">Categoria 1</a></li> <!--prueba ruta dropdown-->
@@ -33,7 +33,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-lg-2" href="<?php echo base_url('registro'); ?>"><i class="fas fa-address-card"></i>  REGISTRO</a>
+                                <a class="nav-link mx-lg-2" href="<?php echo base_url('registro'); ?>"><i class="fas fa-address-card"></i> REGISTRO</a>
                             </li>
                         </ul>
                     </div>

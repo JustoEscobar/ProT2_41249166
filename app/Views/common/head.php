@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe House</title>
-    <link rel="icon" type="image/png" href="<?php echo base_url('assets/img/logo_cafe3.png'); ?>">
+    <link rel="icon" type="image/png" href="<?php echo base_url('assets/img/coffe_house.ico'); ?>">
     <!--Mi estilo-->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/mi_estilo.css'); ?>" />
     <!--Bootstrap-->
