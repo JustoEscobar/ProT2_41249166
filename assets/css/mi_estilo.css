@@ -221,7 +221,6 @@ overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-
 .section-header {
     margin-bottom: 2rem;
 }
@@ -238,6 +237,40 @@ overflow: hidden;
 
 .custom-service .services .card-body i{
     font-size: 50px;
+}
+.custom-service .card{
+    border:none;
+    outline: none;
+    border-radius: 0;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+.custom-service .btn{
+    border-radius: 0;
+}
+
+.custom-service .card:hover{
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+
+.custom-service .text{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.custom-service .info{
+    line-height: 17px;
+}
+
+.custom-service .precio span{
+    color: #fb3531;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.custom-service .promo{
+    background-color: #000000;
 }
 
 .portfolio .card {
@@ -298,11 +331,11 @@ overflow: hidden;
 /*PAGINA ACERCA_DE*/
 
 
-
-
 /*PAGINA PRODUCTOS*/
 
-
+.section-padding-productos{
+    padding: 150px 0;
+}
 
 
 /*PAGINAS LOGIN Y REGISTRO - FORMULARIOS*/

@@ -11,7 +11,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -19,7 +19,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -27,7 +27,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="#" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
     </div>
@@ -59,11 +59,11 @@
                 <div class="col-md-6">
                     <div class="card-body">
                         <h5 class="card-title">DESCUBRE LA EXCELENCIA DEL CAFE</h5>
-                        <p class="card-text">En Coffe House, nos especializamos en ofrecer una experiencia única con nuestros cafés premium. 
-                                Nuestra pasión por el café nos lleva a seleccionar los mejores granos, asegurando un sabor 
-                                inigualable en cada taza. Más que una tienda, somos un lugar donde los amantes del café pueden 
-                                descubrir nuevos sabores, aprender sobre la rica historia del café y compartir momentos 
-                                inolvidables. Únete a nosotros y vive la experiencia Coffe House.</p>
+                        <p class="card-text">En Coffe House, nos especializamos en ofrecer una experiencia única con nuestros cafés premium.
+                            Nuestra pasión por el café nos lleva a seleccionar los mejores granos, asegurando un sabor
+                            inigualable en cada taza. Más que una tienda, somos un lugar donde los amantes del café pueden
+                            descubrir nuevos sabores, aprender sobre la rica historia del café y compartir momentos
+                            inolvidables. Únete a nosotros y vive la experiencia Coffe House.</p>
                         <a href="<?php echo base_url('acerca_de'); ?>" class="btn btn-warning">Leer Mas</a>
                     </div>
                 </div>
@@ -73,6 +73,7 @@
 </section>
 
 <!--Cards de Ofertas de nuestros Servicios/Prodcutos-->
+
 <section id="services" class="services custom-service">
     <div class="container">
         <div class="row">
@@ -82,46 +83,255 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-white text-center bg-dark pb-2">
-                    <div class="card-body">
-                        <i class="fa-solid fa-folder-open"></i>
-                        <h3 class="card-tittle">Calidad Premium</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sint voluptatem ipsum ut aperiam cumque
-                            nostrum eveniet molestiae consequuntur minus quasi distinctio ipsa nulla nam.</p>
-                        <button class="btn btn-warning text-dark">Ver Mas</button>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Primer item del carousel -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>AMERICANO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café rebajado con agua</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_macchiato.png" alt="img_cafe_macchiato">
+                                    <h6><b>MACCHIATO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café espumoso</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_expresso.png" alt="img_cafe_expresso">
+                                    <h6><b>EXPRESSO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café solo</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_cortado.png" alt="img_cafe_cortado">
+                                    <h6><b>CORTADO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café cortado con poca leche</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segundo item del carousel -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_leche.png" alt="img_cafe_leche">
+                                    <h6><b>CAFÉ CON LECHE</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Mitad café, mitad leche</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_lagrima.png" alt="img_cafe_lagrima">
+                                    <h6><b>LAGRIMA</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Poco café, mucha leche</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>CAPPUCHINO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Poca leche y mucha espuma</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>CAFÉ LATTE</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Menos espuma, suave y cremoso</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tercer item del carousel -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>BREVE</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café con leche y crema</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>IRLANDES</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café con whiisky y crema batida</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>HAWAIANO</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café con leche de coco</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="align-items-center p-2 text-center">
+                                    <img class="rounded" width="120" height="120" src="assets/img/catalogo/img_cafe_americano.png" alt="img_cafe_americano">
+                                    <h6><b>ARABE</b></h6>
+                                    <div class="mt-3 info">
+                                        <span class="text d-block">Descripcion</span>
+                                        <span class="text">Café con especias</span>
+                                    </div>
+                                    <div class="precio mt-3 text-dark">
+                                        <span>$1100</span>
+                                    </div>
+                                </div>
+                                <div class="btn btn-dark p-3 promo text-center mt-3">
+                                    <a href="#"><span class="text-uppercase text-white">AÑADIR AL CARRITO</span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-white text-center bg-dark pb-2">
-                    <div class="card-body">
-                        <i class="fa-solid fa-folder-open"></i>
-                        <h3 class="card-tittle">Calidad Premium</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sint voluptatem ipsum ut aperiam cumque
-                            nostrum eveniet molestiae consequuntur minus quasi distinctio ipsa nulla nam.</p>
-                        <button class="btn btn-warning text-dark">Ver Mas</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-white text-center bg-dark pb-2">
-                    <div class="card-body">
-                        <i class="fa-solid fa-folder-open"></i>
-                        <h3 class="card-tittle">Calidad Premium</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sint voluptatem ipsum ut aperiam cumque
-                            nostrum eveniet molestiae consequuntur minus quasi distinctio ipsa nulla nam.</p>
-                        <button class="btn btn-warning text-dark">Ver Mas</button>
-                    </div>
-                </div>
-            </div>
+            <!-- Controles del carousel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 </section>
 
 <!--Cards Equipo de trabajo-->
-<section id="portfolio" class="portfolio section-padding">
+<section id="services" class="services custom-service section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -131,39 +341,63 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-light text-center bg-white pb-2">
-                    <div class="card-body text-dark">
-                        <div class="img-area mb-4">
-                            <img src="assets/img/principal/cafe_taza_3.jpg" class="img-fluid" alt="">
-                        </div>
-                        <h3 class="card-title">Building Make</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                        <button class="btn bg-warning text-dark">Learn More</button>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="assets/img/quienes_somos/1.webp" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Justo Escobar</h3>
+                        <p class="card-text">Lider de equipo</p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-light text-center bg-white pb-2">
-                    <div class="card-body text-dark">
-                        <div class="img-area mb-4">
-                            <img src="assets/img/principal/cafe_taza_3.jpg" class="img-fluid" alt="">
-                        </div>
-                        <h3 class="card-title">Building Make</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                        <button class="btn bg-warning text-dark">learn More</button>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="assets/img/quienes_somos/2.webp" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Justo Escobar</h3>
+                        <p class="card-text">Diseñador UX/UI</p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div class="card text-light text-center bg-white pb-2">
-                    <div class="card-body text-dark">
-                        <div class="img-area mb-4">
-                            <img src="assets/img/principal/cafe_taza_3.jpg" class="img-fluid" alt="">
-                        </div>
-                        <h3 class="card-title">Building Make</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi modi temporibus alias iste. Accusantium?</p>
-                        <button class="btn bg-warning text-dark">Learn More</button>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="assets/img/quienes_somos/3.webp" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Justo Escobar</h3>
+                        <p class="card-text">Analista</p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="assets/img/quienes_somos/4.webp" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Justo Escobar</h3>
+                        <p class="card-text">Programador</p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </p>
                     </div>
                 </div>
             </div>
