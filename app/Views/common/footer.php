@@ -15,13 +15,13 @@
                 <div class="col-md-3 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">Mas informacion de la compañia</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto bg-dark" style="width: 200px; height: 2px">
-                    <p class="mt-2 text-justify"> Esta compañia se dedica a la venta de cafe de alta calidad.
+                    <p class="mt-2 justify-text"> Esta compañia se dedica a la venta de cafe de alta calidad.
                     </p>
                 </div>
                 <div class="col-md-2 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">Terminos y condiciones</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto bg-dark" style="width: 130px; height: 2px">
-                    <p class="mt-2 text-justify"> Esta compañia se dedica a la venta de cafe de alta calidad.
+                    <p class="mt-2 justify-text"> Esta compañia se dedica a la venta de cafe de alta calidad.
                     </p>
                 </div>
                 <div class="col-md-2 mx-auto mb-4">
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 text-right">
                     <a href="<?php echo base_url('acerca_de'); ?>">
-                        <p class="derechos text-light font-weight-bold">Informacion de compañia|Privacion y Politica | Terminos y condiciones</p>
+                        <p class="info-compania text-light font-weight-bold">Informacion de compañia|Privacion y Politica | Terminos y condiciones</p>
                     </a>
                 </div>
             </div>

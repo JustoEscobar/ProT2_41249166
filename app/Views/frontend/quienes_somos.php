@@ -4,8 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header text-center pb-5">
-                    <h2>Nuestro Equipo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
+                    <h3>NUESTRO EQUIPO</h3>
                 </div>
             </div>
         </div>

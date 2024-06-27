@@ -59,12 +59,12 @@
                 <div class="col-md-6">
                     <div class="card-body">
                         <h5 class="card-title">DESCUBRE LA EXCELENCIA DEL CAFE</h5>
-                        <p class="card-text">En Coffe House, nos especializamos en ofrecer una experiencia única con nuestros cafés premium.
+                        <p class="card-text justify-text">En Coffe House, nos especializamos en ofrecer una experiencia única con nuestros cafés premium.
                             Nuestra pasión por el café nos lleva a seleccionar los mejores granos, asegurando un sabor
                             inigualable en cada taza. Más que una tienda, somos un lugar donde los amantes del café pueden
                             descubrir nuevos sabores, aprender sobre la rica historia del café y compartir momentos
                             inolvidables. Únete a nosotros y vive la experiencia Coffe House.</p>
-                        <a href="<?php echo base_url('acerca_de'); ?>" class="btn btn-warning">Leer Mas</a>
+                        <a href="<?php echo base_url('acerca_de'); ?>" class="btn btn-warning btn-sm d-block mx-auto">LEER MAS</a>
                     </div>
                 </div>
             </div>
@@ -72,8 +72,7 @@
     </div>
 </section>
 
-<!--Cards de Ofertas de nuestros Servicios/Prodcutos-->
-
+<!--Cards de Ofertas de nuestros Servicios/Prodcutos dentro de un Carousel-->
 <section id="services" class="services custom-service">
     <div class="container">
         <div class="row">
