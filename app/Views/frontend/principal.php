@@ -4,6 +4,7 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -11,7 +12,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="#services" class="btn btn-warning mt-3">VER OFERTAS</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -19,7 +20,7 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="#about" class="btn btn-warning mt-3">ACERCA DE</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -27,7 +28,15 @@
             <div class="carousel-caption">
                 <h5>Coffe House</h5>
                 <p>Para compartir una experiencia única e inolvidable</p>
-                <a href="<?php echo base_url('productos'); ?>" class="btn btn-warning mt-3">VER OFERTAS</a>
+                <a href="#team" class="btn btn-warning mt-3">QUIENES SOMOS</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="assets/img/principal/carousel_4.jpg" class="d-block w-100" alt="Carrousel_principal_img_4">
+            <div class="carousel-caption">
+                <h5>Coffe House</h5>
+                <p>Para compartir una experiencia única e inolvidable</p>
+                <a href="#contact" class="btn btn-warning mt-3">CONTACTO</a>
             </div>
         </div>
     </div>
@@ -78,7 +87,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header text-center pb-5">
-                    <h3>NUESTROS PRODUCTOS</h3>
+                    <h3>NUESTRAS OFERTAS</h3>
                 </div>
             </div>
         </div>
@@ -330,7 +339,7 @@
 </section>
 
 <!--Cards Equipo de trabajo-->
-<section id="services" class="services custom-service section-padding">
+<section id="team" class="team section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -343,14 +352,14 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/1.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/1.webp" alt="foto_persona_1" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Lider de equipo</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -358,14 +367,14 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/2.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/2.webp" alt="foto_persona_2" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Diseñador UX/UI</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -373,14 +382,14 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/3.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/3.webp" alt="foto_persona_3" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Analista</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -388,15 +397,58 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/4.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/4.webp" alt="foto_persona_4" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Programador</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section contactarse con nosotros-->
+<section id="contact" class="contact section-padding-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h3>CONTACTO</h3>
+                </div>
+            </div>
+        </div>
+        <div class="form-area">
+            <div class="container">
+                <div class="row single-form g-0">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="left">
+                            <h3><span>Contacta con nosotros</span> <br>Coffe House</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="right">
+                            <i class="fa-solid fa-caret-left"></i>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

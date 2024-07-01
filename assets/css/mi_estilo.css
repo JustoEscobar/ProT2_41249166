@@ -158,6 +158,10 @@ overflow: hidden;
 	padding: 70px 0;
 }
 
+.section-padding-bottom{
+    padding-bottom: 70px;
+}
+
 .custom-carousel .btn{
     font-size: 0.9rem;
     font-weight: 800;
@@ -186,7 +190,7 @@ overflow: hidden;
     font-size: 18px;
     line-height: 1.9;
 }
-.custom-carousel .carousel-inner:before {
+.custom-carousel .carousel-inner::before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -341,6 +345,88 @@ overflow: hidden;
     height: 40px;
     background-color: #000000;
     top: calc(50% - 50px);
+}
+/*PAGINA PRINCIPAL - SECTION CONTACTO */
+.contact .row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.contact .left {
+	background: url(../img/acerca_de/contact_4.jpg) no-repeat center;
+    background-size: cover;
+	padding: 200px 20px;
+}
+
+.contact .left h3 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.contact .left h3 span {
+	font-weight: 100;
+}
+.contact .single-form{
+    background: #fff;
+}
+.contact .right {
+	padding: 70px 100px;
+	position: relative;
+}
+.contact .right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.contact .form-control {
+	border: 2px solid #000;
+}
+.contact .right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.contact .right button:hover{
+    background-color: #252525;
+}
+
+/*responsive*/
+
+@media (min-width:768px) and (max-width:991px){
+    .contact .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .contact .left {
+    padding: 90px 15px;
+    text-align: center;
+    }
+    .contact .left h3 {
+        font-size: 25px;
+    }
+    .contact .right {
+        padding: 25px;
+    }
+    .contact .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 46%;
+    }
+    .contact .right button {
+        width: 150px;
+        padding: 12px 0;
+    }
 }
 
 /*PAGINA QUIENES_SOMOS CARDS*/

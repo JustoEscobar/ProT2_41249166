@@ -1,5 +1,5 @@
 <!-- Acerca de nuestro equipo/empresa -->
-<section class="team section-padding-team" id="team">
+<section id="team" class="team section-padding-team">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -16,10 +16,10 @@
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Lider de equipo</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -31,10 +31,10 @@
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Diseñador UX/UI</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -46,10 +46,10 @@
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Analista</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -61,10 +61,10 @@
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Programador</p>
                         <p class="socials">
-                            <i class="bi bi-twitter text-dark mx-1"></i>
-                            <i class="bi bi-facebook text-dark mx-1"></i>
-                            <i class="bi bi-linkedin text-dark mx-1"></i>
-                            <i class="bi bi-instagram text-dark mx-1"></i>
+                            <i class="fa-brands fa-twitter text-dark mx-1"></i>
+                            <i class="fa-brands fa-facebook text-dark mx-1"></i>
+                            <i class="fa-brands fa-linkedin text-dark mx-1"></i>
+                            <i class="fa-brands fa-instagram text-dark mx-1"></i>
                         </p>
                     </div>
                 </div>
@@ -72,3 +72,4 @@
         </div>
     </div>
 </section>
+<!--Agregar una seccion que tenga para contactarse con la empresa para consultas (quienes somos) -->
