@@ -12,7 +12,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/1.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/1.webp" alt="foto_persona_1" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Lider de equipo</p>
                         <p class="socials">
@@ -27,7 +27,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/2.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/2.webp" alt="foto_persona_2" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Diseñador UX/UI</p>
                         <p class="socials">
@@ -42,7 +42,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/3.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/3.webp" alt="foto_persona_3" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Analista</p>
                         <p class="socials">
@@ -57,7 +57,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="assets/img/quienes_somos/4.webp" alt="" class="img-fluid rounded-circle">
+                        <img src="assets/img/quienes_somos/4.webp" alt="foto_persona_4" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
                         <p class="card-text">Programador</p>
                         <p class="socials">

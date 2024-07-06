@@ -13,3 +13,7 @@ $routes->get('acerca_de', 'Home::acerca_de');
 $routes->get('productos', 'Home::productos');
 $routes->get('registro', 'Home::registro');
 $routes->get('login', 'Home::login');
+
+/*Rutas del Registro de Usuarios*/
+$routes->get('/registro', 'usuario_controller::create');
+$routes->post('/enviar-form', 'usuario_controller::formValidation'); 

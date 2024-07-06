@@ -5,55 +5,55 @@ namespace App\Controllers;
 class Home extends BaseController
 {
 	public function index(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/inicio');
+                $data['titulo'] = 'Coffe House';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/inicio');
 	}
 
         public function principal(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/principal');
-        echo view('common/footer');
+                $data['titulo'] = 'Principal';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/principal');
+                echo view('common/footer');
         }
 
 	public function quienes_somos(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/quienes_somos');
-        echo view('common/footer');
+                $data['titulo'] = 'Quienes Somos';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/quienes_somos');
+                echo view('common/footer');
         }
 
         public function acerca_de(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/acerca_de');
-        echo view('common/footer');
+                $data['titulo'] = 'Acerca De';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/acerca_de');
+                echo view('common/footer');
         }
 
         public function productos(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/productos');
-        echo view('common/footer');
+                $data['titulo'] = 'Productos';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/productos');
+                echo view('common/footer');
         }
 
         public function registro(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/registro');
+                $data['titulo'] = 'Registro';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('backend/usuario/registro');
         }
 
         public function login(){
-
-        echo view('common/head');
-        echo view('common/navbar');
-        echo view('frontend/login');
+                $data['titulo'] = 'Login';
+                echo view('common/head', $data);
+                echo view('common/navbar');
+                echo view('frontend/login');
         }
 }
