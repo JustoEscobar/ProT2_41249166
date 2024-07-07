@@ -15,6 +15,7 @@ class usuario_controller extends Controller{
         echo view('common/navbar');
         echo view('backend/usuario/registro');
         echo view('common/footer');
+        echo view('common/scripts');
     }
     public function formValidation(){
         $input = $this->validate([
@@ -32,6 +33,7 @@ class usuario_controller extends Controller{
             echo view('common/navbar');
             echo view('backend/usuario/registro', ['validation' =>$this->validator]);
             echo view('common/footer');
+            echo view('common/scripts');
         } else{
             $formModel->save([
                 'nombre' => $this->request->getVar('nombre'),

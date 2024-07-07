@@ -13,6 +13,7 @@ class login_controller extends BaseController{
         echo view('common/head', $dato);
         echo view('common/navbar');
         echo view('backend/usuario/login');
+        echo view('common/scripts');
     }
 
     public function auth(){

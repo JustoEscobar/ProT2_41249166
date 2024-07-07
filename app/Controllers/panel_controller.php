@@ -16,5 +16,6 @@ class panel_controller extends Controller{
         echo view('common/navbar');
         echo view('frontend/principal', $data);
         echo view('common/footer');
+        echo view('common/scripts');
     }
 }

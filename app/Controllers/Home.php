@@ -9,6 +9,7 @@ class Home extends BaseController
                 echo view('common/head', $data);
                 echo view('common/navbar');
                 echo view('frontend/inicio');
+                echo view('common/scripts');
 	}
 
         public function principal(){
@@ -17,6 +18,7 @@ class Home extends BaseController
                 echo view('common/navbar');
                 echo view('frontend/principal');
                 echo view('common/footer');
+                echo view('common/scripts');
         }
 
 	public function quienes_somos(){
@@ -25,6 +27,7 @@ class Home extends BaseController
                 echo view('common/navbar');
                 echo view('frontend/quienes_somos');
                 echo view('common/footer');
+                echo view('common/scripts');
         }
 
         public function acerca_de(){
@@ -33,6 +36,7 @@ class Home extends BaseController
                 echo view('common/navbar');
                 echo view('frontend/acerca_de');
                 echo view('common/footer');
+                echo view('common/scripts');
         }
 
         public function productos(){
@@ -41,6 +45,7 @@ class Home extends BaseController
                 echo view('common/navbar');
                 echo view('frontend/productos');
                 echo view('common/footer');
+                echo view('common/scripts');
         }
 
         public function registro(){
@@ -48,6 +53,7 @@ class Home extends BaseController
                 echo view('common/head', $data);
                 echo view('common/navbar');
                 echo view('backend/usuario/registro');
+                echo view('common/scripts');
         }
 
         public function login(){
@@ -55,5 +61,6 @@ class Home extends BaseController
                 echo view('common/head', $data);
                 echo view('common/navbar');
                 echo view('backend/usuario/login');
+                echo view('common/scripts');
         }
 }
