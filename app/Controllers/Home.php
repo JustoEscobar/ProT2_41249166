@@ -54,6 +54,6 @@ class Home extends BaseController
                 $data['titulo'] = 'Login';
                 echo view('common/head', $data);
                 echo view('common/navbar');
-                echo view('frontend/login');
+                echo view('backend/usuario/login');
         }
 }
