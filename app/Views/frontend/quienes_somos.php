@@ -8,13 +8,13 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+        <div class="row no-gutters">
+            <div class="col-6 col-md-3">
                 <div class="card text-center">
                     <div class="card-body">
                         <img src="assets/img/quienes_somos/1.webp" alt="foto_persona_1" class="img-fluid rounded-circle">
                         <h3 class="card-title py-2">Justo Escobar</h3>
-                        <p class="card-text">Lider de equipo</p>
+                        <p class="card-text">Líder de equipo</p>
                         <p class="socials">
                             <i class="fa-brands fa-twitter text-dark mx-1"></i>
                             <i class="fa-brands fa-facebook text-dark mx-1"></i>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-6 col-md-3">
                 <div class="card text-center">
                     <div class="card-body">
                         <img src="assets/img/quienes_somos/2.webp" alt="foto_persona_2" class="img-fluid rounded-circle">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-6 col-md-3">
                 <div class="card text-center">
                     <div class="card-body">
                         <img src="assets/img/quienes_somos/3.webp" alt="foto_persona_3" class="img-fluid rounded-circle">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-6 col-md-3">
                 <div class="card text-center">
                     <div class="card-body">
                         <img src="assets/img/quienes_somos/4.webp" alt="foto_persona_4" class="img-fluid rounded-circle">

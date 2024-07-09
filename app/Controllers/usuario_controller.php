@@ -14,25 +14,56 @@ class usuario_controller extends Controller{
         echo view('common/head', $dato);
         echo view('common/navbar');
         echo view('backend/usuario/registro');
-        echo view('common/footer');
         echo view('common/scripts');
     }
-    public function formValidation(){
+    public function formValidation()
+    {
+        // Configurar mensajes de error personalizados
+        $messages = [
+            'nombre' => [
+                'required' => 'Nombre es obligatorio.',
+                'min_length' => 'Debe tener al menos 3 caracteres.',
+            ],
+            'apellido' => [
+                'required' => 'Apellido es obligatorio.',
+                'min_length' => 'Debe tener al menos 3 caracteres.',
+                'max_length' => 'Debe exceder los 25 caracteres.',
+            ],
+            'usuario' => [
+                'required' => 'Usuario es obligatorio.',
+                'min_length' => 'Debe tener al menos 3 caracteres.',
+            ],
+            'email' => [
+                'required' => 'Email es obligatorio.',
+                'min_length' => 'Debe tener al menos 4 caracteres.',
+                'max_length' => 'No debe exceder los 100 caracteres.',
+                'valid_email' => 'Por favor ingrese un email válido.',
+                'is_unique' => 'Este email ya está registrado.',
+            ],
+            'password' => [
+                'required' => 'Contraseña es obligatoria.',
+                'min_length' => 'Debe tener al menos 3 caracteres.',
+                'max_length' => 'No debe exceder los 10 caracteres.',
+            ],
+        ];
+
+        $validation = \Config\Services::validation();
+
         $input = $this->validate([
             'nombre' => 'required|min_length[3]',
             'apellido' => 'required|min_length[3]|max_length[25]',
             'usuario' => 'required|min_length[3]',
             'email' => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuario.email]',
             'password' => 'required|min_length[3]|max_length[10]'
-        ],
+        ], $messages
         );
+
         $formModel = new usuario_model();
         if (!$input){
             $data['titulo'] = 'Registro';
             echo view('common/head', $data);
             echo view('common/navbar');
             echo view('backend/usuario/registro', ['validation' =>$this->validator]);
-            echo view('common/footer');
             echo view('common/scripts');
         } else{
             $formModel->save([
@@ -47,4 +78,3 @@ class usuario_controller extends Controller{
         }
     }
 }
-

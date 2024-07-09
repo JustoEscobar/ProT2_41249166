@@ -20,7 +20,7 @@
                         <?= csrf_field(); ?>
                         <?= csrf_field(); ?>
                         <?php if (!empty(session()->getFlashdata('fail'))) : ?>
-                            <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
+                            <div class="error-message"><?= session()->getFlashdata('fail'); ?></div>
                         <?php endif ?>
                         <?php if (!empty(session()->getFlashdata('success'))) : ?>
                             <div class="alert alert-success"><?= session()->getFlashdata('success'); ?></div>
@@ -32,7 +32,7 @@
                             <input name='nombre' type="text" class="form-control form-control-lg fs-6" placeholder="Nombre" />
                             <!--Error-->
                             <?php if ($validation->getError('nombre')) { ?>
-                                <div class="alert alert-danger">
+                                <div class="error-message">
                                     <?= $error = $validation->getError('nombre'); ?>
                                 </div>
                             <?php } ?>
@@ -44,7 +44,7 @@
                             <input name="apellido" type="text" class="form-control form-control-lg fs-6" placeholder="Apellido" />
                             <!--Error-->
                             <?php if ($validation->getError('apellido')) { ?>
-                                <div class="alert alert-danger">
+                                <div class="error-message">
                                     <?= $error = $validation->getError('apellido'); ?>
                                 </div>
                             <?php } ?>
@@ -56,7 +56,7 @@
                             <input name="usuario" type="text" class="form-control form-control-lg fs-6" placeholder="Usuario" />
                             <!--Error-->
                             <?php if ($validation->getError('usuario')) { ?>
-                                <div class="alert alert-danger">
+                                <div class="error-message">
                                     <?= $error = $validation->getError('usuario'); ?>
                                 </div>
                             <?php } ?>
@@ -68,7 +68,7 @@
                             <input name="email" type="email" class="form-control form-control-lg fs-6" placeholder="Email" />
                             <!--Error-->
                             <?php if ($validation->getError('email')) { ?>
-                                <div class="alert alert-danger">
+                                <div class="error-message">
                                     <?= $error = $validation->getError('email'); ?>
                                 </div>
                             <?php } ?>
@@ -80,14 +80,16 @@
                             <input name="password" type="password" class="form-control form-control-lg fs-6" placeholder="Contraseña" />
                             <!--Error-->
                             <?php if ($validation->getError('password')) { ?>
-                                <div class="alert alert-danger">
+                                <div class="error-message">
                                     <?= $error = $validation->getError('password'); ?>
                                 </div>
                             <?php } ?>
                         </div>
                         <!-- <button class="btn boton-registro btn-dark btn-lg w-100 mb-3">Registro</button> -->
-                        <input type="submit" value="Registro" class="btn boton-registro btn-dark btn-lg w-100 mb-3" />
-                        <input type="reset" value="Cancelar" class="btn boton-registro btn-dark btn-lg w-100 mb-3" />
+                        <div class="d-flex justify-content-between">
+                            <input type="submit" value="Registro" class="btn boton-registro btn-dark btn-lg w-48 mb-3" />
+                            <input type="reset" value="Cancelar" class="btn boton-registro btn-dark btn-lg w-48 mb-3" />
+                        </div>
                     </form>
                     <div class="text-center">
                         <small>Ya tienes una cuenta?<a class="fw-bold" href="<?php echo base_url('login'); ?>"> Iniciar Sesion</a></small>

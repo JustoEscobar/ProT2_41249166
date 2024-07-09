@@ -43,9 +43,10 @@
                                         <i class="fab fa-shopify"></i> PRODUCTOS
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">Categoria 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 2</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 3</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">CAFETERIA</a></li>
+                                        <li><a class="dropdown-item" href="#">INFUSIONES</a></li>
+                                        <li><a class="dropdown-item" href="#">SALADOS</a></li>
+                                        <li><a class="dropdown-item" href="#">DULCES</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -89,9 +90,10 @@
                                         <i class="fab fa-shopify"></i> PRODUCTOS
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">Categoria 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 2</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 3</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">CAFETERIA</a></li>
+                                        <li><a class="dropdown-item" href="#">INFUSIONES</a></li>
+                                        <li><a class="dropdown-item" href="#">SALADOS</a></li>
+                                        <li><a class="dropdown-item" href="#">DULCES</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -137,9 +139,10 @@
                                         <i class="fab fa-shopify"></i> PRODUCTOS
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-dark">
-                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">Categoria 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 2</a></li>
-                                        <li><a class="dropdown-item" href="#">Categoria 3</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo base_url('productos'); ?>">CAFETERIA</a></li>
+                                        <li><a class="dropdown-item" href="#">INFUSIONES</a></li>
+                                        <li><a class="dropdown-item" href="#">SALADOS</a></li>
+                                        <li><a class="dropdown-item" href="#">DULCES</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">

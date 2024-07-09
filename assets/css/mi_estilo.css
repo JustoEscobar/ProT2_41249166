@@ -275,13 +275,6 @@
     background-color: #000000;
 }
 
-.portfolio .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}
-
-.section-padding-team{
-    padding: 150px 0;
-}
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .custom-carousel .carousel-caption{
         bottom: 370px;
@@ -334,6 +327,68 @@
     background-color: #000000;
     top: calc(50% - 50px);
 }
+
+/*PAGINA PRINCIPAL - SECCION QUIENES SOMOS*/
+
+.section-padding-team{
+    padding: 150px 0;
+}
+
+.team .card-body i {
+	font-size: 20px;
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    margin: 10px 0;
+}
+.team .card:hover {
+    transform: scale(1.05);
+}
+.team .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ddd;
+    padding: 5px;
+}
+.team .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.team .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+.team .socials i {
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+.team .socials i:hover {
+    color: #007bff;
+}
+.row.no-gutters {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .row.no-gutters {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .row.no-gutters .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
 /*PAGINA PRINCIPAL - SECTION CONTACTO */
 .contact .row.single-form {
 	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
@@ -343,7 +398,6 @@
     background-size: cover;
 	padding: 200px 20px;
 }
-
 .contact .left h3 {
 	color: #fff;
 	font-weight: 700;
@@ -418,13 +472,7 @@
 }
 
 /*PAGINA QUIENES_SOMOS CARDS*/
-.team .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}
 
-.team .card-body i {
-	font-size: 20px;
-}
 
 /*PAGINA ACERCA_DE*/
 
@@ -486,6 +534,25 @@
 }
 a{
     text-decoration: none !important; /*Afecta a todas las etiquetas a*/
+}
+
+.d-flex .w-48 {
+    width: 48%;
+}
+
+.custom-login .error-message {
+    position: absolute;
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: -1.5rem;
+    right: 10px;
+    top: 100%;
+    white-space: nowrap;
+}
+
+.custom-login .input-group {
+    position: relative; 
+    margin-bottom: 2rem; 
 }
 
 /* FOOTER - BANNER - PIE DE PAGINA */
