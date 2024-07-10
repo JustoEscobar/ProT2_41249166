@@ -16,6 +16,7 @@ class usuario_controller extends Controller{
         echo view('backend/usuario/registro');
         echo view('common/scripts');
     }
+
     public function formValidation()
     {
         // Configurar mensajes de error personalizados
@@ -23,15 +24,17 @@ class usuario_controller extends Controller{
             'nombre' => [
                 'required' => 'Nombre es obligatorio.',
                 'min_length' => 'Debe tener al menos 3 caracteres.',
+                'alpha' => 'Solo puede contener letras',
             ],
             'apellido' => [
                 'required' => 'Apellido es obligatorio.',
                 'min_length' => 'Debe tener al menos 3 caracteres.',
-                'max_length' => 'Debe exceder los 25 caracteres.',
+                'alpha' => 'Solo puede contener letras',
             ],
             'usuario' => [
                 'required' => 'Usuario es obligatorio.',
                 'min_length' => 'Debe tener al menos 3 caracteres.',
+                'alpha_numeric' => 'Debe contener solo letras y números',
             ],
             'email' => [
                 'required' => 'Email es obligatorio.',
@@ -42,19 +45,20 @@ class usuario_controller extends Controller{
             ],
             'password' => [
                 'required' => 'Contraseña es obligatoria.',
-                'min_length' => 'Debe tener al menos 3 caracteres.',
-                'max_length' => 'No debe exceder los 10 caracteres.',
+                'min_length' => 'Debe tener al menos 8 caracteres.',
+                'max_length' => 'No debe exceder los 16 caracteres.',
+                'regex_match' => 'Minúscula, mayúscula, número y carácter especial.',
             ],
         ];
 
         $validation = \Config\Services::validation();
 
         $input = $this->validate([
-            'nombre' => 'required|min_length[3]',
-            'apellido' => 'required|min_length[3]|max_length[25]',
-            'usuario' => 'required|min_length[3]',
+            'nombre' => 'required|min_length[3]|alpha',
+            'apellido' => 'required|min_length[3]|alpha',
+            'usuario' => 'required|min_length[3]|alpha_numeric',
             'email' => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuario.email]',
-            'password' => 'required|min_length[3]|max_length[10]'
+            'password' => 'required|min_length[8]|max_length[16]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/]',
         ], $messages
         );
 

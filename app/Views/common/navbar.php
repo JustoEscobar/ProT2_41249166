@@ -16,7 +16,11 @@
                 </button>
                 <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/logo_cafe_sf.png" alt="LOGO_INICIO" class="logo-img"></h5>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <a href="<?php echo base_url('inicio'); ?>">
+                                <img src="assets/img/logo_cafe_sf.png" alt="LOGO_INICIO" class="logo-img">
+                            </a>
+                        </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <!-- MENU PARA ADMINISTRADORES -->

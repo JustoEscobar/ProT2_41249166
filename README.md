@@ -1,7 +1,7 @@
 # Aplicacion Web Coffe-House
 Curso Talentos Digitales Modulo II
 
-# Framework MVC Codeigniter 4
+# Framework MVC Codeigniter 4.5.2 (PHP 7.4+ - 8.2)
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
 More information can be found at the [official site](https://codeigniter.com).
 

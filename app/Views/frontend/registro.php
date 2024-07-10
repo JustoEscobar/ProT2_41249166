@@ -8,7 +8,7 @@
         <div class="col-lg-6">
             <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
                 <div class="col col-sm-6 col-lg-7 col-xl-6">
-                    <a href="#" class="d-flex justify-content-center">
+                    <a class="d-flex justify-content-center" href="<?php echo base_url('inicio'); ?>" >
                         <img src="assets/img/logo_cafe2_sf.png" alt="LOGO_INICIO" width="100">
                     </a>
                     <div class="text-center mb-5">
